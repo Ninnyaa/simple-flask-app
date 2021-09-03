@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>Gameplay</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xOqFjTR9LG0" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<ul>
+    <li><a href="{{ url_for('index') }}">Home</a></li>
+    <li><a href="{{ url_for('plot') }}">Plot</a></li>
+</ul>
+
+<p>Among the many staples of Final Fantasy's gameplay is the iconic Job system, an involved progression
+    system that lets you customize party members by selecting and developing them into specialized roles.
+    While it is essentially a variation on Dungeons & Dragons' classic classes, the Final Fantasy games
+    encourage you to swap between "jobs" as the situation demands. This system is utilized in FFXIV to
+    great effect, though it is also modified to fit the Tank-Healer-DPS model that the gameplay is molded
+    around.</p>
+<p>Each combat discipline is designed to fill one of three major roles, be it tank (tasked with keeping 
+    enemies trained on them during scraps), healer (keeps party members healthy and the tank alive), and DPS
+    (glass cannons that deal great damage, but cannot endure a direct onslaught of attacks). You can develop
+    your character in whatever ranged or melee trade suits your fancy, and there is no penalty for swapping
+    between jobs, save that you need to level up each individual discipline.</p>
+
+<p>(Source <a href="https://www.pcmag.com/reviews/final-fantasy-xiv-online-for-pc">Final Fantasy XIV Online (for PC) Review</a>)</p>
+
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>Plot</h1>
+
+<img src="{{ url_for('static', filename='images/FFXIV-Featured-Image-1.jpg') }}">
+
+<ul>
+    <li><a href="{{ url_for('index') }}">Home</a></li>
+    <li><a href="{{ url_for('gameplay') }}">Gameplay</a></li>
+</ul>
+
+<p>Beginning in one of Eorzea's three main states, the player character awakes to the Echo, a power granting
+    them the ability to see the past. The Adventurers are initially involved in both conflicts within the
+    nations provoked by the Garlean presence, led by the Garlean Legatus Gaius Van Baelsar, and the Beastmen's
+    attempts to hoard crystals and summon their Primals. Eventually, a greater threat is brought to the attention
+    of the nations by the Sharlayan scholar Louisoix Leveilleur: another Garlean Legatus named Nael Van Darnus
+    is using arcane magic and technology to summon Dalamud, the planet's second moon, down on Eorzea to purge
+    the Beastmen and Primals whom the Garleans hate as violent pagans. With the aid of Garlean defector Cid nan
+    Garlond, the Adventurers discover that Nael has set up a beacon for summoning Dalamud in the new fortress of
+    Castrum Novum. While each nation makes individual attempts to storm the fortress, they are repelled. Faced 
+    with this, their leaders form a pact and unite the nations under the banner of the Eorzean Alliance.</p>
+<p>Now united, the nations, aided by Adventurers, successfully storm Castrum Novum and destroy the beacon. Nael,
+    insanely committed to his plan, makes himself into a second beacon. Though he is defeated by the Adventurers, 
+    Dalamud has descended too far for it to return into orbit, so Louisoix proposes a final desperate plan: to summon 
+    the Twelve, Eorzea's guardian deities, and return Dalamud into orbit. The Adventurers pray to altars dedicated 
+    to the Twelve across the land, then rally with the armies of the Eorzean Alliance to fight Nael's legion on the 
+    Carteneau Flats, the predicted impact site of Dalamud. In the midst of the battle, Dalamud disintegrates and 
+    reveals itself to have been a prison for the Elder Primal Bahamut. Enraged after its imprisonment, Bahamut 
+    begins laying waste to Eorzea. After the attempt to summon the Twelve fails, Louisoix uses the last of his 
+    power to send the Adventurers into a time rift, separating them from the flow of time so they can return when 
+    Eorzea has recovered.</p>
+
+<p>(Source <a href="https://en.wikipedia.org/wiki/Final_Fantasy_XIV_(2010_video_game)">Wikipedia</a>)</p>
+
+{% endblock %}

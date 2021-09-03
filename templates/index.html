@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>Final Fantasy XIV</h1>
+
+<img src="{{ url_for('static', filename='images/capsule_616x353.jpg') }}">
+
+<ul>
+    <li><a href="{{ url_for('gameplay') }}">Gameplay</a></li>
+    <li><a href="{{ url_for('plot') }}">Plot</a></li>
+</ul>
+
+<p>Final Fantasy XIV: A Realm Reborn, or FFXIV ARR, is a subscription-based pay-to-play 3D fantasy-themed
+    MMORPG from gaming giant, Square Enix. The game was released for Windows, PS3, and PS4 on August 27,
+    2013 and is a re-launch of the original Final Fantasy XIV which was shut down in November 11, 2012 
+    due to largely negative reviews. The aptly named re-launched version featured a different game engine,
+    revamped gameplay, improved user interface, and a brand new story.</p>
+<p>The events of A Realm Reborn take place in the mythical realm of Eorzea, five years after the apocalypti
+    events that concluded the original FFXIV. Players take on the role of Warriors of Light, heroes who have
+    escaped the devastation by travelling through time five years into the future. They return to a realm 
+    rising from the ashes and rebuilding from the wake of destruction left behind by Bahamut’s release from 
+    his lunar prison while also dealing with the looming threat of invasion from the Garlean Empire to the north.</p>
+
+<p>(Source <a href="https://mmos.com/review/final-fantasy-xiv">MMOs</a>)</p>
+
+{% endblock %}

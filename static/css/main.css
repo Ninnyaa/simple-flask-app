@@ -1,0 +1,33 @@
+body {
+    background-color: #1f212a;
+}
+
+#main {
+    margin: 2em auto;
+    width: 740px;
+    padding: 2em 4em;
+    background: #efeeea;
+}
+
+img {
+    height: 22em;
+}
+
+p, li {
+    font-size: 1.2em;
+}
+
+a {
+    color: #1484bc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #407189;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
